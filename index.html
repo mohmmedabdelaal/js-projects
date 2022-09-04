@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>My age in days</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2 class="text-xl-center text-decoration-underline">My Age in days</h2>
+      </div>
+      <div class="d-flex justify-content-around">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 m-1">
+              <input
+                type="text"
+                class="form-control"
+                id="age"
+                placeholder="Enter your age"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <button class="btn btn-lg btn-primary" id="click-me">
+                Click Me
+              </button>
+            </div>
+            <div class="col-sm-3">
+              <button class="btn btn-lg btn-danger" id="reset">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h3>You Are <span class="days"></span> Days old.</h3>
+      </div>
+    </div>
+  </body>
+</html>
