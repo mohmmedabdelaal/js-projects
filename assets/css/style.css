@@ -74,3 +74,30 @@ Global Styles
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
+.rsp {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #222;
+  background-color: #645caa;
+}
+
+.rsp img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 3px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em;
+}
+
+#rock,
+#paper,
+#scissor {
+  cursor: pointer;
+}
+
+#rock:hover,
+#paper:hover,
+#scissor:hover {
+  box-shadow: rgba(122, 34, 34, 0.25) 0px 54px 55px,
+    rgba(148, 58, 58, 0.12) 0px -12px 30px, rgba(148, 63, 63, 0.12) 0px 4px 6px,
+    rgba(138, 48, 48, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
